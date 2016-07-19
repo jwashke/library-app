@@ -1,4 +1,3 @@
-<!-- app/templates/navbar.hbs -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -14,6 +13,7 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav">
             {{#link-to 'index' tagName="li"}}<a href>Home</a>{{/link-to}}
+            {{#link-to 'libraries' tagName="li"}}<a href="">Libraries</a>{{/link-to}}
             {{#link-to 'about' tagName="li"}}<a href>About</a>{{/link-to}}
             {{#link-to 'contact' tagName="li"}}<a href>Contact</a>{{/link-to}}
       </ul>
